@@ -31,6 +31,8 @@
     width: 100%; 
     background-color: brown;
 
+    padding-bottom: 40px;
+
     position: relative;
 
     display: flex;

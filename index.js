@@ -1,4 +1,5 @@
 // const url = "https://cat-fact.herokuapp.com/facts" ;
+const proxyUrl = 'https://corsproxy.io/?';
 
 var url =  "https://codeforces.com/api/user.info?handles=messi_10db;saurabhchaubey112;omium;mhtkrag;Vedant_Singh;kkrishna694;Rituraj379" ;
 // localStorage.setItem("cfUrl", url) ;
