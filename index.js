@@ -2,8 +2,9 @@
 const proxyUrl = 'https://corsproxy.io/?';
 
 var url =  "https://codeforces.com/api/user.info?handles=messi_10db;saurabhchaubey112;omium;mhtkrag;Vedant_Singh;kkrishna694;Rituraj379" ;
-// localStorage.setItem("cfUrl", url) ;
-
+if(localStorage.getItem("cfUrl")==null){
+localStorage.setItem("cfUrl", url) ;
+}
 // const getcf =  async () => {
 //     console.log("getting data.....") ;
 //     let res =  await fetch(url) ;
